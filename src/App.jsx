@@ -11,7 +11,7 @@ export const App = () => {
                 <Router>
                     <div className="glow-card">
                         <Routes>
-                            <Route path='/' element={<Home/>}/>
+                            <Route path='lil-client/' element={<Home/>}/>
                         </Routes>
                     </div>
                 </Router>
