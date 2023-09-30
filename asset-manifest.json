@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0eae104e.css",
-    "main.js": "/static/js/main.5677aa74.js",
-    "index.html": "/index.html",
-    "main.0eae104e.css.map": "/static/css/main.0eae104e.css.map",
-    "main.5677aa74.js.map": "/static/js/main.5677aa74.js.map"
+    "main.css": "/lil-client/static/css/main.0eae104e.css",
+    "main.js": "/lil-client/static/js/main.5677aa74.js",
+    "index.html": "/lil-client/index.html",
+    "main.0eae104e.css.map": "/lil-client/static/css/main.0eae104e.css.map",
+    "main.5677aa74.js.map": "/lil-client/static/js/main.5677aa74.js.map"
   },
   "entrypoints": [
     "static/css/main.0eae104e.css",
