@@ -27,6 +27,13 @@ body {
 h1 {
     font-size: min(3.5rem, 7vw);
     margin-left: 20px;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: min(1.5rem, 4vw);
+    margin-left: 20px;
+    margin-top: 4px;
 }
 
 .glow-card {
