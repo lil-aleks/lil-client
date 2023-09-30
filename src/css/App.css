@@ -1,0 +1,60 @@
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+:root {
+    --background-clr: #040818;
+    --glow-clr-1: #5f0580;
+    --glow-clr-2: #1b1389;
+    --glow-clr-3: #3d0ea1;
+    --glow-clr-4: #0e18cc;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-clr);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.glow-card {
+    height: 96vh;
+    width: 97vw;
+    background-color: var(--background-clr);
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.glow-card::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: conic-gradient(
+        from var(--gradient-angle),
+        var(--glow-clr-1),
+        var(--glow-clr-2),
+        var(--glow-clr-3),
+        var(--glow-clr-4),
+        var(--glow-clr-3),
+        var(--glow-clr-2),
+        var(--glow-clr-1)
+    );
+    border-radius: inherit;
+    animation: glow-rotation 10s linear infinite;
+    filter: blur(3.5rem);
+}
+
+@keyframes glow-rotation {
+    0%      { --gradient-angle: 0deg; }
+    100%    { --gradient-angle: 360deg; }
+}
+
+@media screen and (max-width: 600px) {
+    .glow-card {
+        display: none;
+    }    
+}
