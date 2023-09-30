@@ -1,18 +1,21 @@
 import React from 'react';
-import './css/App.css'
+import './css/App.css';
+import { Home } from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
  
 export const App = () => {
 
     return (
         <React.StrictMode>
-            <div className='glow-card'>
-            <Router>
-                <Routes>
-                    
-                </Routes>
-            </Router>
-            </div>
+            
+                <Router>
+                    <div className="glow-card">
+                        <Routes>
+                            <Route path='/' element={<Home/>}/>
+                        </Routes>
+                    </div>
+                </Router>
+            
         </React.StrictMode>
     );
 

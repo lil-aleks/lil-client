@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
 @property --gradient-angle {
     syntax: "<angle>";
     initial-value: 0deg;
@@ -18,15 +20,26 @@ body {
     min-height: 100vh;
     display: grid;
     place-content: center;
+    color: rgb(228, 243, 255);
+    font-family: 'Gabarito', cursive;
+}
+
+h1 {
+    font-size: min(3.5rem, 7vw);
+    margin-left: 20px;
 }
 
 .glow-card {
-    height: 96vh;
-    width: 97vw;
+    min-height: 95vh;
+    width: 92vw;
+    padding: 1px;
+    padding-left: 10px;
+    margin: 10px;
     background-color: var(--background-clr);
     border-radius: 0.5rem;
     position: relative;
 }
+
 
 .glow-card::after{
     content: "";
@@ -53,8 +66,3 @@ body {
     100%    { --gradient-angle: 360deg; }
 }
 
-@media screen and (max-width: 600px) {
-    .glow-card {
-        display: none;
-    }    
-}
