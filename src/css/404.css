@@ -1,0 +1,23 @@
+.error {
+    background-color: rgba(255, 255, 255, 0.025);
+    min-height: 10vh;
+    min-width: 70vw;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.error-title {
+    font-size: max(3.5rem, 10vw);
+    margin: 0;
+    margin-top: 15px;
+}
+
+.not-found {
+    font-size: max(1.5rem, 4vw);
+    margin: 0;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
