@@ -1,6 +1,6 @@
 # Getting Started with lil-Client
 
-A Minecraft Client programmed by [lil aleks](https://github.com/lil-aleks)
+A Minecraft Client programmed by [lil aleks](https://github.com/lil-aleks).
 
 ## Download
 
