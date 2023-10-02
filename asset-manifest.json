@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lil-client/static/css/main.500b70ad.css",
-    "main.js": "/lil-client/static/js/main.f120d6e8.js",
+    "main.css": "/lil-client/static/css/main.c47c7ff2.css",
+    "main.js": "/lil-client/static/js/main.246bc0da.js",
     "index.html": "/lil-client/index.html",
-    "main.500b70ad.css.map": "/lil-client/static/css/main.500b70ad.css.map",
-    "main.f120d6e8.js.map": "/lil-client/static/js/main.f120d6e8.js.map"
+    "main.c47c7ff2.css.map": "/lil-client/static/css/main.c47c7ff2.css.map",
+    "main.246bc0da.js.map": "/lil-client/static/js/main.246bc0da.js.map"
   },
   "entrypoints": [
-    "static/css/main.500b70ad.css",
-    "static/js/main.f120d6e8.js"
+    "static/css/main.c47c7ff2.css",
+    "static/js/main.246bc0da.js"
   ]
 }
