@@ -68,6 +68,24 @@ p {
     filter: blur(3.5rem);
 }
 
+.lang-selector {
+    position: absolute;
+    right: max(10px, 4vw);
+    top: max(15px, 1.5vh);
+    min-height: max(20px, 1.5vh);
+    min-width: max(70px, 6vh);
+    font-size: max(0.8rem, 0.9vw);
+    border-radius: .5rem;
+    border: 2px solid #1b138952;
+    background-color: var(--background-clr);
+    color: rgb(228, 243, 255);
+    
+}
+
+#en {
+    display: none;
+}
+
 @keyframes glow-rotation {
     0%      { --gradient-angle: 0deg; }
     100%    { --gradient-angle: 360deg; }
