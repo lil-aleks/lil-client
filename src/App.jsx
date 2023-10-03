@@ -8,7 +8,7 @@ export const App = () => {
 
     return (
         <React.StrictMode>
-            
+
                 <Router basename='/lil-client'>
                     <div className="glow-card">
                         <select className='lang-selector' onChange={e => {
@@ -27,7 +27,7 @@ export const App = () => {
                         </select>
                         <Routes>
                             <Route path='/' element={<Home/>}/>
-                            <Route path='*' element={<Error/>}/>
+                            <Route path='/test' element={<Error/>}/>
                         </Routes>
                     </div>
                 </Router>
