@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './css/App.css';
 import { Home } from './pages/Home';
-import { Error } from './pages/404Page';
+import { Error } from './pages/ErrorPage';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
  
 export const App = () => {
@@ -27,7 +27,7 @@ export const App = () => {
                         </select>
                         <Routes>
                             <Route path='/' element={<Home/>}/>
-                            <Route path='/test' element={<Error/>}/>
+                            <Route path='/*' element={<Error/>}/>
                         </Routes>
                     </div>
                 </Router>
