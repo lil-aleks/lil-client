@@ -26,14 +26,50 @@ body {
 
 h1 {
     font-size: min(3.5rem, 7vw);
+    margin: 0;
     margin-left: 20px;
-    margin-bottom: 4px;
+    margin-top: 15px;
 }
 
 p {
     font-size: min(1.5rem, 4vw);
+    margin: 0;
     margin-left: 20px;
-    margin-top: 4px;
+    margin-top: 5px;
+}
+
+.download-button {
+    background: linear-gradient(
+        -20deg,
+        #106e27,
+        #57a960);
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(228, 243, 255);
+    font-weight: 700;
+    min-height: min(4vh, 30px);
+    min-width: 7vh;
+    font-size: min(1rem, 3vw);
+}
+
+.download-button:hover, .download-button:focus {
+    background: linear-gradient(
+        -20deg,
+        #106e27ce,
+        #57a961c3);
+}
+
+.download-button:active {
+    background: linear-gradient(
+        -20deg,
+        #106e27a7,
+        #57a961a1);
+}
+
+.download-button a {
+    color: rgb(228, 243, 255);
+    text-decoration: none;
 }
 
 .glow-card {

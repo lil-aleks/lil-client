@@ -28,7 +28,6 @@ export const App = () => {
                         <Routes>
                             <Route path='/' element={<Home/>}/>
                             <Route path='/*' element={<Error/>}/>
-                            <Route path='/test' element={<Home/>}/>
                         </Routes>
                     </div>
                 </Router>
