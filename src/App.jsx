@@ -26,8 +26,9 @@ export const App = () => {
                             <option value="en">English</option>
                         </select>
                         <Routes>
-                            <Route path='/' element={<Home/>}/>
-                            <Route path='/*' element={<Error/>}/>
+                            <Route path='lil-client/' element={<Home/>}/>
+                            <Route path='lil-client/*' element={<Error/>}/>
+                            <Route path='lil-client/test/' element={<Home/>}/>
                         </Routes>
                     </div>
                 </Router>
