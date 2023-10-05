@@ -9,7 +9,7 @@ export const App = () => {
     return (
         <React.StrictMode>
 
-                <Router basename='/lil-client'>
+                <Router>
                     <div className="glow-card">
                         <select className='lang-selector' onChange={e => {
 
