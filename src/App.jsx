@@ -3,6 +3,7 @@ import './css/App.css';
 import { Home } from './pages/Home';
 import { Error } from './pages/ErrorPage';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AboutUs } from './pages/AboutUs';
  
 export const App = () => {
 
@@ -28,6 +29,7 @@ export const App = () => {
                         <Routes>
                             <Route path='/' element={<Home/>}/>
                             <Route path='/*' element={<Error/>}/>
+                            <Route path='/aboutus' element={<AboutUs/>}/>
                         </Routes>
                     </div>
                 </Router>

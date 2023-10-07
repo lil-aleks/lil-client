@@ -1,0 +1,28 @@
+.make-this-shit-horizontal {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.test-button {
+    position: absolute;
+    top: 35px;
+}
+
+.test1 {
+    left: 10px;
+}
+
+.test2 {
+    right: 10px;
+}
+
+.card {
+    display: inline-block;
+    background-color: #09102a;
+    margin: 5px;
+}
+
+.card p {
+    margin: 30px;
+}
