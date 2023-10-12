@@ -12,17 +12,7 @@ export const App = () => {
 
                 <Router basename='/lil-client'>
                     <div className="glow-card">
-                        <select className='lang-selector' onChange={e => {
-
-                            if(e.target.value === "de") {
-                                document.getElementById("en").style.display = "none";
-                                document.getElementById("de").style.display = "block";
-                            } else {
-                                document.getElementById("en").style.display = "block";
-                                document.getElementById("de").style.display = "none";
-                            }
-
-                        }}>
+                        <select className='lang-selector' onChange={e => changeLanguage(e)}>
                             <option value="de">Deutsch</option>
                             <option value="en">English</option>
                         </select>
@@ -36,5 +26,15 @@ export const App = () => {
             
         </React.StrictMode>
     );
+
+    function changeLanguage(e) {
+        if(e.target.value === "de") {
+            document.getElementById("en").style.display = "none";
+            document.getElementById("de").style.display = "block";
+        } else {
+            document.getElementById("en").style.display = "block";
+            document.getElementById("de").style.display = "none";
+        }
+    }
 
 };

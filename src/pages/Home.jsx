@@ -10,7 +10,7 @@ export const Home = () => {
 
             <div id='de'>
                 <h1>lil-Client</h1>
-                <p>Ein Minecraft Client für jede art von Spieler.</p>
+                <p>Ein Minecraft Client für jede Art von Spieler.</p>
                 <button className='download-button'>
                     <a rel="noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Herunterladen</a>
                 </button>

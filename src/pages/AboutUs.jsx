@@ -2,6 +2,8 @@ import React from 'react';
 
 export const AboutUs = () => {
 
+    document.title = "About us | lil-Client"
+
     return (
         <React.StrictMode>
            
@@ -11,7 +13,7 @@ export const AboutUs = () => {
             </div>
             <div id='en'>
                 <h1>About us</h1>
-                
+
             </div>
 
         </React.StrictMode>
